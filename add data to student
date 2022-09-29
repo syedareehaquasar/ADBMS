@@ -1,0 +1,5 @@
+INSERT INTO "Student" VALUES ('Reeha', 14114802719, 100, 'Rohini', 'CSE');
+INSERT INTO "Student" VALUES ('Rishika', 20514802719, 90, 'Rohini', 'CSE');
+INSERT INTO "Student" VALUES ('Aayushi', 21114802719, 80, 'Rohini', 'CSE');
+
+SELECT * FROM "Student";
