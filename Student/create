@@ -1,0 +1,18 @@
+-- Table: public.Student
+
+-- DROP TABLE IF EXISTS public."Student";
+
+CREATE TABLE IF NOT EXISTS public."Student"
+(
+    student_name character varying COLLATE pg_catalog."default",
+    enrolment_no bigint NOT NULL,
+    marks bigint,
+    area character varying COLLATE pg_catalog."default",
+    branch character varying COLLATE pg_catalog."default",
+    CONSTRAINT "Student_pkey" PRIMARY KEY (enrolment_no)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public."Student"
+    OWNER to admin;
